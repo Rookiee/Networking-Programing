@@ -20,14 +20,14 @@ GB Teams
 msg = MIMEText(content, 'plain', 'utf-8')
 msg['Subject'] = Header("Testing Program Email",'utf-8').encode()
 
-fromMail = 'gbteams@outlook.com'
-toMail = '1039598561@qq.com'
-# toMail = '82154915@qq.com'
+fromMail = 'xxxxxx@outlook.com'
+toMail = 'xxxxxx@qq.com'
+# toMail = 'xxxxxx@qq.com'
 
 server = smtplib.SMTP()
 server.connect('smtp-mail.outlook.com',587)
 server.starttls()
-server.login('gbteams@outlook.com', 'Tyler_XCCFO')
+server.login('xxxxxx@outlook.com', 'xxxxxx')
 print "Login Success"
 
 i = 0
